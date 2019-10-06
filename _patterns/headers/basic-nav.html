@@ -1,0 +1,22 @@
+<header role="navigation" id="nav" tabindex="0">
+  <div class="nav grid grid-middle border-bottom text-center gutter-2">
+    <a href="/index.html" class="unit unit-xs-hidden unit-s-hidden m-1-5 l-1-5 xl-1-5 gutter" aria-label="Click here to go back to the home page.">
+      <svg class="logo" width="3.6in" height="3.6in" viewBox="0 0 256 256">
+        <title>Genevieve Lepine Logo</title>
+        <description>My logo is a geometric representation of the letter G.</description>
+        <use xlink:href="/images/icons.svg#logo"></use>
+      </svg>
+    </a>
+    <ul class="unit xs-1 s-1 m-3-5 l-3-5 xl-3-5 text-center push-1-2 list-group-inline">
+      <li class="inline gutter-1-4 {% if page.highlight_nav == 'branding' %}current{% endif %}">
+        <a class="btn btn-ghost btn-text inline gutter-1-2" aria-label="Click here to navigate to the portfolio pieces page" href="#products">Branding</a>
+      </li>
+      <li class="inline gutter-1-4 {% if page.highlight_nav == 'personal-projects' %}current{% endif %}">
+        <a class="btn btn-ghost btn-text inline gutter-1-2" aria-label="Click here to navigate to the personal projects page" href="/personal-projects/">Personal projects</a>
+      </li>
+      <li class="inline gutter-1-4 {% if page.highlight_nav == 'contact' %}current{% endif %}">
+        <a class="btn btn-ghost btn-text inline gutter-1-2" aria-label="Click here to navigate to my contact information" href="#contact">Contact me</a>
+      </li>
+    </ul>
+  </div>
+</header>

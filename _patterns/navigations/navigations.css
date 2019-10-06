@@ -1,0 +1,28 @@
+.border-bottom {
+  border-bottom: 2px solid var(--color-accent-light);
+}
+
+.border-top {
+  border-top: 2px solid var(--color-accent-light);
+}
+
+.chevron {
+  color: var(--color-secondary);
+}
+
+.reverse-text {
+  color: var(--color-secondary-opposite);
+}
+
+.reverse-text:hover {
+  color: var(--color-accent-light);
+}
+
+.social-media-icon path, .social-media-icon circle {
+  transition: fill 400ms ease-out .1s;
+  fill: var(--color-secondary-opposite);
+}
+
+.social-media-icon:hover path, .social-media-icon:hover circle {
+  fill: var(--color-accent-light);
+}

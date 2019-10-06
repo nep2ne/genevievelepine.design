@@ -1,0 +1,14 @@
+title: "Sections"
+description: |
+  Sections are used to present groups of similar content.
+
+patterns:
+  basic-section:
+    title: "Basic section"
+    description: |
+      Basic sections are used to present content such as the background story of the store. It should be used on the homepage.
+
+  introduction-text:
+    title: "Introduction text"
+    description: |
+      This section is used for a block of text that introduces content on a page and serves to separate content.

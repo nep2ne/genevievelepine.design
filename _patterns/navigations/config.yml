@@ -1,0 +1,13 @@
+title: "Navigations"
+description: |
+  Navigations allow the user to link to various content on a page and to link to other pages.
+
+patterns:
+  social-media-nav:
+    title: "Social media navigation"
+    description: |
+      The social media nav is placed in the main footer and allows users to link to my social media sites.
+  previous-page-nav:
+    title: "Previous page navigation"
+    description: |
+      The previous page navigation appears on the portfolio pieces details page and allows the user to return to the home page.

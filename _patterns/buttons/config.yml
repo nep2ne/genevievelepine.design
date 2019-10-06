@@ -1,0 +1,21 @@
+title: "Buttons"
+description: |
+  Buttons are designed to draw the attention of the user towards my portfolio pieces.
+
+patterns:
+  basic:
+    title: "Basic button"
+    description: |
+      Basic buttons are styled to focus the attention of the user on actions, namely contacting me.
+    fields:
+      - name: text
+        type: string
+        example: "Contact me"
+      - name: url
+        type: url
+        example: "#contact"
+
+  ghost:
+    title: "Ghost button"
+    description: |
+      Ghost buttons are used in the navigation bar.

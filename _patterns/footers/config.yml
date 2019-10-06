@@ -1,0 +1,5 @@
+patterns:
+  footer-main:
+    title: "Main footer"
+    description: |
+      The main footer is placed at the bottom of every page.

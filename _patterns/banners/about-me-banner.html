@@ -1,0 +1,16 @@
+<header role="banner" tabindex="0">
+  <div class="transparent-img relative">
+    <picture class="img-flex">
+      <source media="(min-width: 60em)" srcset="/images/banner-l.jpg">
+      <source media="(min-width: 35em)" srcset="/images/banner-m.jpg">
+      <img role="presentation" src="/images/banner-s.jpg" alt="background image">
+    </picture>
+    <div class="absolute-banner transparent-white island pin-lc">
+      <h2 class="push-1-2">{{include.heading}}</h2>
+      <p class="tera push-1-2">{{include.text}}</p>
+      {% if include.button_url %}
+        {% pattern buttons/basic text="Contact me" url="#contact" %}
+      {% endif %}
+    </div>
+  </div>
+</header>

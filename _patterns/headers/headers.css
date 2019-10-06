@@ -1,0 +1,38 @@
+.icon-hover:hover path, .icon-hover:hover circle {
+  fill: var(--color-primary);
+}
+
+.icon-hover:hover polyline {
+  stroke: var(--color-primary);
+}
+
+.icon-hover:hover .dropdown-search-content {
+  display: block;
+  border-radius: 12px;
+  border: 3px solid var(--color-primary);
+}
+
+.logo {
+  width: 90%;
+  height: 90%;
+  max-width: 15em;
+}
+
+.logo:hover path {
+  fill: var(--color-primary);
+}
+
+.border-bottom {
+  border-bottom: 2px solid var(--color-accent-light);
+}
+
+.border-top {
+  border-top: 2px solid var(--color-accent-light);
+}
+
+.current {
+  background-color: var(--color-accent-light);
+  color: var(--color-secondary-opposite);
+  border-radius: 2px;
+  border: none;
+}

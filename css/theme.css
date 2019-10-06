@@ -1,0 +1,97 @@
+:root {
+  --color-primary: #4f3b49;
+  --color-secondary: #f5b65f;
+  --color-accent-dark: #696969;
+  --color-accent-light: #8d7689;
+  --color-secondary-light: #e8e7e8;
+  --color-secondary-opposite: #fff;
+  --color-warning: #ff1751;
+
+  --font-primary: "Open Sans", Arial, sans-serif;
+  --font-secondary: "Oswald", Arial, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+/* @utility Apply secondary typeface */
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+/* @utility Apply dark background accent color */
+.section-dark {
+  background-color: var(--color-accent-dark);
+}
+
+h1, h2 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-accent-dark);
+  font-family: var(--font-secondary);
+  font-weight: lighter;
+}
+
+a:hover {
+  color: var(--color-accent-light);
+}
+
+dt {
+  font-weight: 700;
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+dd {
+  font-weight: 400;
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+ul, ol, dl {
+  color: var(--color-primary);
+  list-style-type: none;
+}
+
+blockquote, q {
+  color: var(--color-primary);
+}
+
+cite {
+  color: var(--color-primary);
+  font-style: italic;
+}
+
+p, em, strong, del, ins, abbr, dfn, i, b, s, u th, tr, td, .table-text {
+  color: var(--color-primary);
+}
+
+mark {
+  background-color: var(--color-secondary-light);
+  color: var(--color-primary);
+}
+
+.form-background {
+  background-color: var(--color-accent-light);
+}
+
+hr {
+  border-color: var(--color-accent-light);
+}
+
+.no-border {
+  border-color: var(--color-secondary-opposite);
+}

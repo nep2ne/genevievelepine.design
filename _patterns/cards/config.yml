@@ -1,0 +1,26 @@
+patterns:
+  portfolio-piece-card:
+    title: Portfolio piece card
+    width: 400
+    description: |
+      Portfolio piece cards are used on the portfolio product list page to display each piece of my portfolio.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+  portfolio-piece-details-card:
+    title: Portfolio piece details card
+    description: |
+      The portfolio piece details card provides details about a portfolio piece. Users access the portfolio piece details card when they click on the portfolio piece highlight card from the main page. This card includes a navigation to return to the previous page.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+  image-card:
+    title: Image card
+    description: |
+      The image card is used to navigate to categories of portfolio pieces. It is clickable and includes the name of the category and a background image.

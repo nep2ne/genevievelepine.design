@@ -1,0 +1,11 @@
+.footer-dark {
+  background-color: var(--color-primary);
+}
+
+.border-top {
+  border-top: 2px solid var(--color-accent-light);
+}
+
+.reverse-text-no-hover {
+  color: var(--color-secondary-opposite);
+}

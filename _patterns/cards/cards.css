@@ -1,0 +1,88 @@
+.card {
+  background-color: var(--color-secondary-opposite);
+  color: var(--color-primary);
+  border-radius: 8px;
+  border: 2px solid var(--color-secondary-opposite);
+}
+
+.basic-card {
+  background-color: var(--color-secondary-opposite);
+  color: var(--color-primary);
+  border-radius: 8px;
+  border: 2px solid var(--color-secondary-opposite);
+}
+
+.image-card {
+  background-color: var(--color-secondary-opposite);
+  color: var(--color-primary);
+  border-radius: 8px;
+  border: 2px solid var(--color-secondary-opposite);
+}
+
+.product-details-card {
+  background-color: var(--color-secondary-opposite);
+  color: var(--color-primary);
+  border-radius: 8px;
+  border: 2px solid var(--color-secondary-opposite);
+}
+
+.product-card {
+  background-color: var(--color-secondary-light);
+  color: var(--color-primary);
+  border-radius: 8px;
+  border: 2px solid var(--color-secondary-opposite);
+}
+
+.link-card {
+  border: 2px solid var(--color-secondary-opposite);
+}
+
+.link-card:hover {
+  border: 2px solid var(--color-secondary);
+  border-radius: 0;
+}
+
+.link-card-caption {
+  width: 100%;
+  top: 60%;
+  left: 0;
+  background-color: var(--color-secondary-opposite);
+}
+
+.close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 4px;
+  background-color: var(--color-secondary);
+}
+
+.close:before {
+  transform: rotate(45deg);
+}
+
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.cart-divider {
+  border-bottom: 3px solid var(--color-accent-light);
+}
+
+.hover-image:hover, .hover-image:focus {
+  border: 2px solid var(--color-accent-dark);
+}
