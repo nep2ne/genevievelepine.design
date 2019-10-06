@@ -1,7 +1,0 @@
-Configuration file: /Users/genevievelepine/Dropbox/graphic-design-program/semester5/web-development-5/portfolio/_config.yml
-            Source: /Users/genevievelepine/Dropbox/graphic-design-program/semester5/web-development-5/portfolio
-       Destination: /Users/genevievelepine/Dropbox/graphic-design-program/semester5/web-development-5/portfolio/_site
- Incremental build: disabled. Enable with --incremental
-      Generating... 
-PATTERNBOT — 2019-10-06 10:27:40 -0400: [33m▲ Patternbot downloaded CSS for fonts from the remote URL: https://fonts.googleapis.com/css?family=Oswald:300,400,600,700[0m
-bundler: failed to load command: jekyll (/usr/local/lib/ruby/gems/2.6.0/bin/jekyll)

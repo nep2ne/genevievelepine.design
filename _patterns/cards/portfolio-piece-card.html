@@ -1,24 +1,13 @@
 <div class="card link-card product-card text-center island-1-8 content-fill unit-content-distribute">
-  <a class="block content-fill unit-content-distribute" href={{include.data.url}} aria-label="clickable card describing a product for sale">
+  <a class="block content-fill unit-content-distribute" href={{include.data.url}} aria-label="clickable card showcasing a piece of branding work">
     <div class="content-fill">
       <div class="gutter">
-        <img class="img-flex pad-t" src="{{include.data.image}}" aria-label="photo of a notebook">
-        <h2 class="push-0">{{include.data.name}}</h2>
-        <h4 class="push-0">${{include.data.price}}</h4>
+        <img class="img-flex pad-t" src="{{include.data.image}}" aria-label="photo of MBFA rebranded products">
+        <h4 class="push-0">{{include.data.name}}</h4>
         <p class="push-0">{{include.data.description}}</p>
-        <p class="push-0">{{include.data.pages}} pages</p>
-        <p class="push-0">Style: {{include.data.template}}</p>
-        <p class="push-0">Dimensions: {{include.data.dimensions}}</p>
       </div>
       <div>
-        <img role="presentation" class="icon i-32" src="/images/heart-full.svg" alt="full heart icon">
-        <img role="presentation" class="icon i-32" src="/images/heart-full.svg" alt="full heart icon">
-        <img role="presentation" class="icon i-32" src="/images/heart-full.svg" alt="full heart icon">
-        <img role="presentation" class="icon i-32" src="/images/heart-full.svg" alt="full heart icon">
-        <img role="presentation" class="icon i-32" src="/images/heart-full.svg" alt="full heart icon">
       </div>
-      <p class="milli">234 reviews</p>
-    </div>
     <div class="text-center push">
       {% pattern buttons/basic text="More details" url=include.data.url %}
     </div>

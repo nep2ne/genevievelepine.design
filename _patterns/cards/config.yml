@@ -20,7 +20,3 @@ patterns:
         data:
           source: "site.products[0]"
           type: Product
-  image-card:
-    title: Image card
-    description: |
-      The image card is used to navigate to categories of portfolio pieces. It is clickable and includes the name of the category and a background image.
