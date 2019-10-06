@@ -1,15 +1,15 @@
-<div class="card link-card product-card text-center island-1-8 content-fill unit-content-distribute">
+<div class="card link-card product-card valign-middle content-fill unit-content-distribute">
   <a class="block content-fill unit-content-distribute" href={{include.data.url}} aria-label="clickable card showcasing a piece of branding work">
     <div class="content-fill">
-      <div class="gutter">
-        <img class="img-flex pad-t" src="{{include.data.image}}" aria-label="photo of MBFA rebranded products">
-        <h4 class="push-0">{{include.data.name}}</h4>
-        <p class="push-0">{{include.data.description}}</p>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-2-3 img-flex">
+          <img class="" src="{{include.data.image}}" aria-label="photo of portfolio piece">
+        </div>
+        <div class="unit xs-1 s-1 m-1-3 gutter ib">
+          <h5 class="push-0">{{include.data.name}}</h5>
+          <p class="push-0">{{include.data.description}}</p>
+        </div>
       </div>
-      <div>
-      </div>
-    <div class="text-center push">
-      {% pattern buttons/basic text="More details" url=include.data.url %}
     </div>
   </a>
 </div>

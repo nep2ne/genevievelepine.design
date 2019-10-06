@@ -3,13 +3,13 @@ layout: default-with-link-to-branding
 highlight_nav: branding
 ---
 
-<section class="wrapper">
-  <div class="pad-t text-center push-0">
+<section class="">
+  <div class="pad-t left push-0">
     <h3 class="push-0">Branding-related portfolio pieces</h3>
   </div>
   <div class="grid pad-t push gutter-1-4">
     {% for product in site.products %}
-      <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4 unit-content-distribute">
+      <div class="unit [ xs-1 ] island-1-4 unit-content-distribute">
         {% pattern cards/portfolio-piece-card data=product %}
       </div>
     {% endfor %}
