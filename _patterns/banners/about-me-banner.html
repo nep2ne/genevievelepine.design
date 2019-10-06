@@ -5,12 +5,17 @@
       <source media="(min-width: 35em)" srcset="/images/banner-m.jpg">
       <img role="presentation" src="/images/banner-s.jpg" alt="background image">
     </picture>
-    <div class="absolute-banner transparent-white island pin-lc">
-      <h2 class="push-1-2">{{include.heading}}</h2>
-      <p class="tera push-1-2">{{include.text}}</p>
-      {% if include.button_url %}
-        {% pattern buttons/basic text="Contact me" url="#contact" %}
-      {% endif %}
+    <div class="grid absolute-banner transparent-white island pin-lc max-width">
+      <div class="unit xs-1 s-1 m-1-2 l-2-3 island-2 gutter max-width">
+        <h2 class="push-1-2">{{include.heading}}</h2>
+        <p class="giga push-1-2">{{include.text}}</p>
+        {% if include.button_url %}
+          {% pattern buttons/basic text="Find out more" url="#more-about-me" %}
+        {% endif %}
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-3 max-width">
+        <img class="img-flex island-2" src="images/photo-g.png" alt="photo of Genevieve">
+      </div>
     </div>
   </div>
 </header>
