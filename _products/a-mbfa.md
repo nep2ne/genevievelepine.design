@@ -8,4 +8,5 @@ image_2: "/images/products/mbfa2.jpg"
 image_3: "/images/products/mbfa3.jpg"
 image_4: "/images/products/mbfa4.jpg"
 image_5: "/images/products/mbfa5.jpg"
+image_6: "/images/products/mbfa6.jpg"
 ---

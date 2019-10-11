@@ -12,8 +12,8 @@ patternbot:
 
     patterns:
       brand.logos: "--color-secondary-opposite"
-      navigations.social-media-nav: "--color-accent-dark"
-      navigations.main-footer-nav: "--color-accent-dark"
+      navigations.social-media-nav: "--color-primary"
+      navigations.main-footer-nav: "--color-primary"
 
   rationales:
     colors.primary: |

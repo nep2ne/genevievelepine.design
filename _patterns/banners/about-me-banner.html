@@ -10,12 +10,14 @@
         <h2 class="push-0">{{include.heading1}}</h2>
         <h3 class="push-1-2">{{include.heading2}}</h3>
         <p class="mega push-1-2">{{include.text}}</p>
-        {% if include.button_url %}
-          {% pattern buttons/basic text="Find out more" url="#more-about-me" %}
-        {% endif %}
+        <a>
+          {% if include.button_url %}
+            {% pattern buttons/basic text="Find out more" url="#more-about-me" %}
+          {% endif %}
+        </a>
       </div>
       <div class="unit unit-xs-hidden unit-s-hidden m-1-3 l-1-3 max-width">
-        <img class="img-flex gutter" src="images/photo-g.png" alt="photo of Genevieve">
+        <img class="img-flex gutter" src="/images/photo-g.png" alt="photo of Genevieve">
       </div>
     </div>
   </div>

@@ -8,7 +8,10 @@ patterns:
     description: |
       About-me banners are used on the homepage of the site to describe who I am and why I am a designer.
     fields:
-      - name: heading
+      - name: heading1
+        type: string
+        example: "Hi!"
+      - name: heading2
         type: string
         example: "You can call me G."
       - name: text
@@ -17,13 +20,8 @@ patterns:
       - name: button_text
         type: string
         example: "Find out more"
-        required: false
+        required: true
       - name: button_url
         type: url
         example: "#more-about-me"
-        required: false
-
-  portfolio-category:
-    title: "Portfolio category banner"
-    description: |
-      Portfolio category banners are clickable banners that lead the user towards various categories of portfolio pieces.
+        required: true
