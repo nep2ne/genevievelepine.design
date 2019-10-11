@@ -9,6 +9,15 @@
   width: 100%;
 }
 
+.background-image {
+  background-image: url("../images/background.svg");
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  border-color: none;
+}
+
 .hover-banner {
   transition: background-color 200ms ease-out .2s;
   background-color: var(--color-secondary-light);

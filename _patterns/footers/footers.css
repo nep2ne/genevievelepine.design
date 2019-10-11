@@ -9,3 +9,12 @@
 .reverse-text-no-hover {
   color: var(--color-secondary-opposite);
 }
+
+.social-media-icon path, .social-media-icon circle {
+  transition: fill 400ms ease-out .1s;
+  fill: var(--color-secondary-opposite);
+}
+
+.social-media-icon:hover path, .social-media-icon:hover circle {
+  fill: var(--color-accent-light);
+}

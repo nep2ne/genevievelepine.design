@@ -14,6 +14,7 @@
 
 html {
   font-family: var(--font-primary);
+  color: var(--color-primary);
 }
 
 /* @utility Apply secondary typeface */
@@ -52,31 +53,19 @@ a:hover {
 dt {
   font-weight: 700;
   font-family: var(--font-primary);
-  color: var(--color-primary);
 }
 
 dd {
   font-weight: 400;
   font-family: var(--font-primary);
-  color: var(--color-primary);
 }
 
 ul, ol, dl {
-  color: var(--color-primary);
   list-style-type: none;
 }
 
-blockquote, q {
-  color: var(--color-primary);
-}
-
 cite {
-  color: var(--color-primary);
   font-style: italic;
-}
-
-p, em, strong, del, ins, abbr, dfn, i, b, s, u th, tr, td, .table-text {
-  color: var(--color-primary);
 }
 
 mark {

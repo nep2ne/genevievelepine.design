@@ -6,20 +6,20 @@
   stroke: var(--color-primary);
 }
 
-.icon-hover:hover .dropdown-search-content {
+.icon-hover:hover {
   display: block;
   border-radius: 12px;
   border: 3px solid var(--color-primary);
 }
 
 .logo {
-  width: 90%;
-  height: 90%;
+  width: 70%;
+  height: 70%;
   max-width: 15em;
 }
 
-.logo:hover path {
-  fill: var(--color-primary);
+.logo:hover {
+  color: var(--color-primary);
 }
 
 .border-bottom {
@@ -33,6 +33,6 @@
 .current {
   background-color: var(--color-accent-light);
   color: var(--color-secondary-opposite);
-  border-radius: 2px;
   border: none;
+  border-radius: 3px;
 }

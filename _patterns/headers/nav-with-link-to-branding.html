@@ -4,14 +4,14 @@
       <img class="island-1-4 logo push-1-4" src="/images/logo.svg" alt="a geometric representation of the letter G">
     </a>
     <ul class="unit xs-1 s-1 m-3-5 l-3-5 xl-3-5 text-center push-1-2 list-group-inline">
-      <li class="inline gutter-1-4 {% if page.highlight_nav == 'branding' %}current{% endif %}">
-        <a class="btn btn-ghost btn-text inline gutter-1-2" aria-label="Click here to navigate to the portfolio pieces section of the" href="/#products">Branding</a>
+      <li class="inline {% if page.highlight_nav == 'branding' %}current{% endif %}">
+        <a class="btn btn-ghost btn-text inline" aria-label="Click here to navigate to the portfolio pieces section of the" href="/#products">Branding</a>
       </li>
-      <li class="inline gutter-1-4 {% if page.highlight_nav == 'personal-projects' %}current{% endif %}">
-        <a class="btn btn-ghost btn-text inline gutter-1-2" aria-label="Click here to navigate to the personal projects page" href="/personal-projects/">Personal projects</a>
+      <li class="inline {% if page.highlight_nav == 'other work' %}current{% endif %}">
+        <a class="btn btn-ghost btn-text inline" aria-label="Click here to navigate to the personal projects page" href="/other-work/">Other work</a>
       </li>
-      <li class="inline gutter-1-4 {% if page.highlight_nav == 'contact' %}current{% endif %}">
-        <a class="btn btn-ghost btn-text inline gutter-1-2" aria-label="Click here to navigate to my contact information" href="#contact">Contact me</a>
+      <li class="inline {% if page.highlight_nav == 'contact' %}current{% endif %}">
+        <a class="btn btn-ghost btn-text inline" aria-label="Click here to navigate to my contact information" href="#contact">Contact</a>
       </li>
     </ul>
   </div>

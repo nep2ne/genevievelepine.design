@@ -29,15 +29,3 @@
   color: var(--color-secondary-opposite);
   border: none;
 }
-
-.btn-light {
-  background-color: var(--color-accent-dark);
-  border: none;
-  color: var(--color-secondary-opposite);
-}
-
-.btn-light:hover {
-  background-color: var(--color-accent-light);
-  border: none;
-  color: var(--color-secondary-opposite);
-}
