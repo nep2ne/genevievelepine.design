@@ -18,10 +18,6 @@
   max-width: 15em;
 }
 
-.logo:hover {
-  color: var(--color-primary);
-}
-
 .border-bottom {
   border-bottom: 2px solid var(--color-accent-light);
 }
