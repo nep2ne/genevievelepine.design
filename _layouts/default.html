@@ -18,6 +18,19 @@
 <body>
   <div id="nav" role="navigation" tabindex="0">{% pattern headers/basic-nav %}</div>
   <div id="main" role="main" tabindex="0">{{content}}</div>
+  <a href="#" class="back-to-top active" aria-label="Back to top of page" style="opacity: 0;">
+    <svg class="arrow" width="16" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false">
+      <defs><path id="a-gh3i" d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8z"></path></defs>
+      <g transform="translate(-4 -4)" fill="none" fill-rule="evenodd">
+        <path d="M0 0h24v24H0z"></path>
+        <mask id="b-fk43" fill="#f5b65f"><use xlink:href="#a-gh3i"></use></mask>
+        <use fill="#f5b65f" xlink:href="#a-gh3i"></use>
+        <g class="arrow-icon" mask="url(#b-fk43)" fill="#f5b65f" fill-rule="nonzero">
+          <path d="M0 0h24v24H0z"></path>
+        </g>
+      </g>
+    </svg>
+  </a>
   <div role="contentinfo" tabindex="0">{% pattern footers/footer-main %}</div>
 </body>
 </html>
