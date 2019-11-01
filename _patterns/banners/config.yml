@@ -10,7 +10,7 @@ patterns:
     fields:
       - name: heading1
         type: string
-        example: "Hi!"
+        example: "Hi! Welcome to my design portfolio!"
       - name: heading2
         type: string
         example: "You can call me G."

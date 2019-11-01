@@ -1,0 +1,25 @@
+# humanstxt.org
+
+# TEAM
+## Genevieve Lepine
+
+---
+
+# THANKS
+
+## www.flaticon.com
+
+---
+
+# TECHNOLOGY
+## Adobe AfterEffects
+## Adobe Illustrator
+## Adobe InDesign
+## Adobe Photoshop
+## Atom
+## Github
+
+# HOSTING
+## Cloudflare
+## Hover
+## Netlify

@@ -15,7 +15,7 @@
 }
 
 .reverse-text:hover {
-  color: var(--color-accent-light);
+  color: var(--color-secondary);
 }
 
 .social-media-icon path, .social-media-icon circle {
@@ -24,5 +24,5 @@
 }
 
 .social-media-icon:hover path, .social-media-icon:hover circle {
-  fill: var(--color-accent-light);
+  fill: var(--color-secondary);
 }
