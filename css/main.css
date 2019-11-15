@@ -18,8 +18,8 @@ a:focus {
     position: fixed;
     opacity: 0;
     z-index: 2;
-    bottom: 60px;
-    right: 0px;
+    bottom: 3em;
+    right: .25em;
     width: 80px;
     height: 80px;
     border-radius: 50%;

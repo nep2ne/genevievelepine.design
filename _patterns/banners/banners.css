@@ -3,15 +3,9 @@
   display: block;
 }
 
-.transparent-white {
-  background-color: rgba(255, 255, 255, .25);
-  color: var(--color-primary);
-  width: 100%;
-}
-
 .background-image {
   background-image: url("../images/background.svg");
-  height: 400px;
+  min-height: 30em;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;

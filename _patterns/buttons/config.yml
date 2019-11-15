@@ -14,8 +14,18 @@ patterns:
       - name: url
         type: url
         example: "#contact"
-
   ghost:
     title: "Ghost button"
     description: |
       Ghost buttons are used in the navigation bar.
+  basic-sketches:
+    title: "Basic sketches button"
+    description: |
+      Basic sketches buttons are styled to focus the attention of the user on actions, namely viewing the sketches page.
+    fields:
+        - name: text
+          type: string
+          example: "Sketches"
+        - name: url_1
+          type: url
+          example: "/sketches"

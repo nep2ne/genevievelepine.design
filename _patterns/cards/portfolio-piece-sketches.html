@@ -1,0 +1,23 @@
+{% capture sketches_url %}/products/{{page.slug}}/{% endcapture %}
+
+<div class="card product-details-card grid wrapper gutter-1-2">
+  <div class="pad-t unit xs-1">
+    <a href="{{sketches_url}}" aria-label="Click here to navigate to the previous page." class="previous-page pad-t-1-4">
+      <span>&lt;</span>
+      <span class="gutter-1-2">Return to previous page</span>
+    </a>
+  </div>
+  <div class="pad-t-1-2 unit xs-1 s-1 m-1 l-1 xl-1">
+    <div class="grid">
+      <div class="unit xs-1">
+        <div class="grid">
+          {% for sketch in page.sketches %}
+          <div class="hover-image island-1-4 push-1-2 unit xs-1">
+            <img class="img-flex" src="{{sketch}}" alt="">
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

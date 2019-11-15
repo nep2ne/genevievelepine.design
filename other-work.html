@@ -3,15 +3,17 @@ layout: default-with-link-to-branding
 highlight_nav: other work
 ---
 
-<section class="wrapper">
-  <div class="pad-t text-center push-0">
-    <h3 class="push-0">Personal projects</h3>
-  </div>
-  <div class="grid pad-t push gutter-1-4">
-    {% for product in site.products limit:3%}
-      <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4 unit-content-distribute">
-        {% pattern cards/portfolio-piece-card data=product %}
-      </div>
-    {% endfor %}
-  </div>
-</section>
+<body>
+  <section class="piece-group island-2 gutter-2" id="branding-portfolio-pieces">
+    <div class="pad-t gutter push-0">
+      <h3 class="push-0">Other Work and Personal Projects</h3>
+    </div>
+    <div class="piece-group grid pad-t gutter">
+      {% for other-work in site.other-work %}
+        <div class="unit [ xs-1 s-1 m-1 ] push unit-content-distribute">
+          {% pattern cards/other-work-card data=other-work %}
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+</body>

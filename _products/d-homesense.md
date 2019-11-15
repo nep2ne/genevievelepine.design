@@ -1,11 +1,23 @@
 ---
-name: "HomeSense Campaign"
+name: "HomeSense Campaign: A Case Study"
 description: |
   A promotional campaign designed to showcase HomeSense's redecoration potential
+description_1: |
+  HomeSense is a North American retail chain that specializes in home decor.
+description_2: |
+  The challenge for this project consisted of designing an attention-grabbing campaign to advertize HomeSense products in the specific context of redecorating or revamping one's home decor. A particular challenge was designing for multiple media in various formats, including large print ads, billboards, web banner ads, and Facebook banners.
+description_3: |
+  The process involved creating separate and contrasting moodboards based on a comparative market analysis of past campaigns, competitors' campaigns, and HomeSense's target audience. I then developed three possible campaign concepts, ranging from serious and polished to humorous and light-hearted.
+description_4: |
+  I chose an approach using a play on words, using the expression "The Elephant in the Room", and photographed ugly, outdated fabrics, which I then applied to a simple elephant shape. The resulting campaign is eye-catching and memorable.
 non_conflict: false
-image: "/images/products/homesense1.jpg"
-image_2: "/images/products/homesense2.jpg"
-image_3: "/images/products/homesense3.jpg"
-image_4: "/images/products/homesense4.jpg"
-image_5: "/images/products/homesense5.jpg"
+images:
+  - "/images/products/portfolio-piece-homesense-campaign-billboard.jpg"
+  - "/images/products/portfolio-piece-homesense-campaign-bus-shelter-ad.jpg"
+  - "/images/products/portfolio-piece-homesense-campaign-bus-ad.jpg"
+  - "/images/products/portfolio-piece-homesense-campaign-magazine-ad.jpg"
+  - "/images/products/portfolio-piece-homesense-campaign-facebook-banner.jpg"
+  - "/images/products/portfolio-piece-homesense-campaign-web-banner.jpg"
+  - "/images/products/portfolio-piece-homesense-campaign-giant-outdoor-sign.jpg"
+  - "/images/products/portfolio-piece-homesense-campaign-moodboard.jpg"
 ---

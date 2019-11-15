@@ -20,3 +20,13 @@ patterns:
         data:
           source: "site.products[0]"
           type: Product
+  portfolio-piece-sketches:
+    title: Portfolio piece sketches
+    description: |
+      Sketches from each project.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product

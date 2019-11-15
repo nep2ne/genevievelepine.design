@@ -1,5 +1,6 @@
 ---
 name: "Multiple Birth Families Association"
+name_1: "Multiple Birth Families Association • Sketches"
 description: |
   A rebranding project for a cool not-for-profit organization, including a new logo, print package, and motion promo piece.
 description_1: |
@@ -11,10 +12,24 @@ description_3: |
 description_4: |
   I developed a brand usage guide, and created a comprehensive suite of products to apply the new brand, including merchandising for the organization's members and volunteers, corporate print products, signage, and AR-enabled event posters. I created a short motion promo to reveal the new logo and direct traffic to the organization's website.
 non_conflict: false
-image: "/images/products/mbfa1.jpg"
-image_2: "/images/products/mbfa2.jpg"
-image_3: "/images/products/mbfa3.jpg"
-image_4: "/images/products/mbfa4.jpg"
-image_5: "/images/products/mbfa5.jpg"
-image_6: "/images/products/mbfa6.jpg"
+images:
+  - "/images/products/portfolio-piece-mbfa-paper-products.jpg"
+  - "/images/products/portfolio-piece-mbfa-ball-cap.jpg"
+  - "/images/products/portfolio-piece-mbfa-bus-ad.jpg"
+  - "/images/products/portfolio-piece-mbfa-merchandise-shirt-back.jpg"
+  - "/images/products/portfolio-piece-mbfa-event-sign.jpg"
+  - "/images/products/portfolio-piece-mbfa-logo-stickers.jpg"
+videos:
+  - "https://www.youtube.com/embed/EX2DEmEyOR4"
+sketches:
+  - "/images/products/portfolio-piece-mbfa-sketches-1.jpg"
+  - "/images/products/portfolio-piece-mbfa-sketches-2.jpg"
+  - "/images/products/portfolio-piece-mbfa-sketches-3.jpg"
+  - "/images/products/portfolio-piece-mbfa-sketches-4.jpg"
+  - "/images/products/portfolio-piece-mbfa-sketches-5.jpg"
+  - "/images/products/portfolio-piece-mbfa-sketches-6.jpg"
+  - "/images/products/portfolio-piece-mbfa-sketches-7.jpg"
+  - "/images/products/portfolio-piece-mbfa-sketches-8.jpg"
+  - "/images/products/portfolio-piece-mbfa-sketches-9.jpg"
+url_1: "/sketches"
 ---
