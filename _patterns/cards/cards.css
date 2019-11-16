@@ -27,6 +27,16 @@
   border-radius: 8px;
   border: 2px solid var(--color-secondary-opposite);
   overflow: hidden;
+  max-width: 80em;
+}
+
+.product-details-card-sketches {
+  background-color: var(--color-secondary-opposite);
+  color: var(--color-primary);
+  border-radius: 8px;
+  border: 2px solid var(--color-secondary-opposite);
+  overflow: hidden;
+  max-width: 60em;
 }
 
 .product-card {
@@ -88,4 +98,8 @@
 
 .hover-image:hover, .hover-image:focus {
   border: 2px solid var(--color-accent-dark);
+}
+
+.video {
+  min-height: 500px;
 }

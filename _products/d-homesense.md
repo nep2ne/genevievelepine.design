@@ -20,4 +20,7 @@ images:
   - "/images/products/portfolio-piece-homesense-campaign-web-banner.jpg"
   - "/images/products/portfolio-piece-homesense-campaign-giant-outdoor-sign.jpg"
   - "/images/products/portfolio-piece-homesense-campaign-moodboard.jpg"
+sketches:
+  - "/images/products/portfolio-piece-homesense-campaign-sketches-1.jpg"
+url_1: "/sketches"
 ---

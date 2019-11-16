@@ -29,3 +29,7 @@ patterns:
         - name: url_1
           type: url
           example: "/sketches"
+  back-to-top:
+    title: "Back-to-top arrow"
+    description: |
+      The back-to-top arrow appears on every page and allows the user to return to the top of the page without having to scroll all the way up.

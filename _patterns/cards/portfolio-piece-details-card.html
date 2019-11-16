@@ -17,7 +17,7 @@
           {% endfor %}
           {% for video in page.videos %}
           <div class="hover-image island-1-4 push-1-2 unit xs-1">
-            <iframe width="500" height="315" src="{{video}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="img-flex" width="1000" height="630" src="{{video}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           {% endfor %}
         </div>
@@ -25,7 +25,7 @@
     </div>
   </div>
   <div class="pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-2">
-    <div>
+    <div class="gutter">
       <h6 class="push-1-2">About the client</h6>
       <ul class="list-group">
         <li class="list-group-item kilo">{{include.data.description_1}}</li>
@@ -43,7 +43,9 @@
         <li class="list-group-item kilo">{{include.data.description_4}}</li>
       </ul>
       {% capture sketches_url %}/sketches/{{page.slug}}/{% endcapture %}
-      {% pattern buttons/basic-sketches text="Sketches" url_1=sketches_url %}
+      <div class="push">
+        {% pattern buttons/basic-sketches text="Sketches" url_1=sketches_url %}
+      </div>
     </div>
   </div>
 </div>

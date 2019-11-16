@@ -18,4 +18,6 @@ images:
   - "/images/products/portfolio-piece-packaging-4.jpg"
   - "/images/products/portfolio-piece-packaging-5.jpg"
   - "/images/products/portfolio-piece-packaging-6.jpg"
+sketches:
+  - "/images/products/portfolio-piece-packaging-sketches-1.jpg"
 ---
