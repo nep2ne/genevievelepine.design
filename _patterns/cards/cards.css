@@ -96,10 +96,6 @@
   border-bottom: 3px solid var(--color-accent-light);
 }
 
-.hover-image:hover, .hover-image:focus {
-  border: 2px solid var(--color-accent-dark);
-}
-
 .video {
   min-height: 500px;
 }
