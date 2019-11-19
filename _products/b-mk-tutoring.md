@@ -10,7 +10,7 @@ description_2: |
 description_3: |
   The process involved an informal initial meeting to discuss the client's needs and preferences, followed by a round of sketching and several rounds of mockups and revisions, based on the client's feedback.
 description_4: |
-  I developed a logo and business card that incorporates concepts linked to the client's focus--reading, writing, and math. The logo represents a book and a pencil, and also includes an angle in the pencil tip to reference math. The logo was produced in three colours (yellow, blue and green) to offer the client flexibility. The business cards focus on the logo on the verso and provide contact details on the recto.
+  I developed a logo and business card that incorporates concepts linked to the client's focus—reading, writing, and math. The logo represents a book and a pencil, and also includes an angle in the pencil tip to reference math. The logo was produced in three colours (yellow, blue and green) to offer the client flexibility. The business cards focus on the logo on the verso and provide contact details on the recto.
 non_conflict: false
 images:
   - "/images/products/portfolio-piece-mktutoring-business-cards.jpg"

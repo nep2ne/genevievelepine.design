@@ -8,7 +8,7 @@ description_1: |
 description_2: |
   For this project, the biggest challenge was to bring together a fairly classical and polished design for Victoria's personal use (letterhead, business card) with a cutting-edge, creative cover design for her novel.
 description_3: |
-  As always, I started with ideation -- getting concept ideas from research and sketching. Then I digitized my concepts and explored options for an innovative book cover design.
+  As always, I started with ideation—getting concept ideas from research and sketching. Then I digitized my concepts and explored options for an innovative book cover design.
 description_4: |
   Once I had created the logo, I applied it to letterhead and business cards, and also designed a static book cover with matching bookmarks. I then animated the book cover in AfterEffects to give it a parallax 3D effect, resulting in an AR-enabled book cover that reveals its secrets when looked at through a smart device.
 non_conflict: false
