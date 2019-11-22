@@ -21,4 +21,8 @@ images:
   - "/images/products/portfolio-piece-victoria-bell-static-book-cover.jpg"
 videos:
   - "https://www.youtube.com/embed/QZ5wR-aqKck"
+sketches:
+  - "/images/products/portfolio-piece-victoria-bell-sketches-logo.jpg"
+  - "/images/products/portfolio-piece-victoria-bell-sketches-book-cover.jpg"
+
 ---
