@@ -11,22 +11,6 @@ a:focus {
   outline: 3px solid #000;
 }
 
-.back-to-top.active {
-    opacity: 1!important;
-}
-.back-to-top {
-    position: fixed;
-    opacity: 0;
-    z-index: 2;
-    bottom: 3em;
-    right: .25em;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    -webkit-transition: opacity .2s ease,box-shadow .1s linear;
-    transition: opacity .2s ease,box-shadow .1s linear;
-}
-
 @media only screen and (max-width: 38em) {
 
   .piece-group {

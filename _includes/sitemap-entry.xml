@@ -1,5 +1,3 @@
----
----
 <url>
   <loc>https://genevievelepine.design{{site.basurl}}{{include.entry.url}}</loc>
 

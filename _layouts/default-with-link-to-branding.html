@@ -12,16 +12,16 @@
   <meta name="geo.region" content="ca-on">
   <meta name="geo.placename" content="Ottawa">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Genevieve Lepine Design• A graphic designer and part-time quizmaster who rocks at creating brand identities • Ottawa, Canada">
-  <meta property="og:url" content="https://genevievelepine.design/portfolio-pieces/">
+  <meta property="og:title" content="{% if page.title %}{{page.title}} • {% endif %}Genevieve Lepine Design Porfolio{% if page.titleAfter %} • {{page.titleAfter}}{% endif %}">
+  <meta property="og:url" content="https://genevievelepine.design/">
   <meta property="og:image" content="https://genevievelepine.design/images/genevieve-lepine-logo.svg">
   <meta property="og:site_name" content="Genevieve Lepine">
-  <meta property="og:description" content="Detailed descriptions and images of my best branding-related portfolio pieces">
+  <meta property="og:description" content="{{page.meta}}">
   <meta property="og:locale" content="en_CA">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@genevievelepinedesign">
   <meta name="p:domain_verify" content="1c25fcba70068b4fbce5828e04cf801f"/>
-  <link href="favicon.ico" rel="shortcut icon">
+  <link href="/favicon.ico" rel="shortcut icon">
   <link href="favicon-196.png" rel="icon" type="image/png">
 </head>
 

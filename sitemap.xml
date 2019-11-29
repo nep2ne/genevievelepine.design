@@ -5,14 +5,25 @@
 
   {% for post in site.posts %}
     {% if page.layout %}
-      {include sitemap-entry.xml entry=post %}
+      {% include sitemap-entry.xml entry=post %}
     {% endif %}
   {% endfor %}
 
   {% for page in site.pages %}
+    {% if page.url contains "pattern-library/" %}
+      {% continue %}
+    {% endif %}
     {% if page.layout %}
-      {include sitemap-entry.xml entry=page %}
+      {% include sitemap-entry.xml entry=page %}
     {% endif %}
   {% endfor %}
 
+    {% for page in site.products %}
+      {% if page.url contains "pattern-library/" %}
+        {% continue %}
+      {% endif %}
+      {% if page.layout %}
+        {% include sitemap-entry.xml entry=page %}
+      {% endif %}
+    {% endfor %}
 </urlset>
