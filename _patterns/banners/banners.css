@@ -30,3 +30,8 @@
 .hover-banner:hover .text-hover {
   color: var(--color-secondary-opposite);
 }
+
+.avatar {
+  width: 20em;
+  height: 400px;
+}

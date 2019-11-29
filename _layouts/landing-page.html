@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{page.title}} • {% endif %}Genevieve Lepine Design Porfolio{% if page.titleAfter %} • {{page.titleAfter}}{% endif %}</title>
+  <meta name="description" content="{{page.meta}}">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="/css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i|Oswald:200,300,400,500,600,700" rel="stylesheet">
+  <meta name="ICBM" content="45.41117,-75.69812">
+  <meta name="geo.position" content="45.41117,-75.69812">
+  <meta name="geo.region" content="ca-on">
+  <meta name="geo.placename" content="Ottawa">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.title %}{{page.title}} • {% endif %}Genevieve Lepine Design Porfolio{% if page.titleAfter %} • {{page.titleAfter}}{% endif %}">
+  <meta property="og:url" content="https://genevievelepine.design/">
+  <meta property="og:image" content="https://genevievelepine.design/images/genevieve-lepine-logo.svg">
+  <meta property="og:site_name" content="Genevieve Lepine">
+  <meta property="og:description" content="{{page.meta}}">
+  <meta property="og:locale" content="en_CA">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@genevievelepinedesign">
+  <meta name="p:domain_verify" content="1c25fcba70068b4fbce5828e04cf801f"/>
+  <link href="favicon.ico" rel="shortcut icon">
+  <link href="favicon-196.png" rel="icon" type="image/png">
+</head>
+
+<div class="skip-links">
+  <a href="#main">Jump to main content</a>
+  <a href="#nav">Jump to navigation</a>
+</div>
+
+<body>
+  <div  class="relative" id="main" role="main" tabindex="0">{{content}}</div>
+    <div class="landing-background">
+      <img role="decoration" class="img-flex" src="/images/products/other-work-double-exposure-design.jpg">
+    </div>
+    <div class="logo-button absolute pin-c">
+      {% pattern buttons/logo-button %}
+    </div>
+</body>
+</html>

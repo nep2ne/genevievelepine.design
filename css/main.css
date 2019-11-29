@@ -19,3 +19,9 @@ a:focus {
   }
 
 }
+
+.logo-button {
+  z-index: 2;
+  bottom: -15em;
+  width: 300px;
+}
