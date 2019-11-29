@@ -1,6 +1,8 @@
 ---
-name: "Package Redesign"
+title: Package Redesign Project
+name: Package Redesign
 name_1: "Package Redesign • Sketches"
+meta: A project that consisted of redesigning consumer product packaging to make it more sustainable
 description: |
   Consumer product packaging redesign aimed at making the packaging more sustainable
 description_1: |

@@ -1,6 +1,7 @@
 ---
+title: Multiple Birth Families Association
 name: "Multiple Birth Families Association"
-name_1: "Multiple Birth Families Association • Sketches"
+meta: A rebranding project for a cool not-for-profit organization, including a new logo, print package, and motion promo piece.
 description: |
   A rebranding project for a cool not-for-profit organization, including a new logo, print package, and motion promo piece.
 description_1: |

@@ -1,8 +1,10 @@
 ---
-name: "Victoria Bell Brand Identity"
+title: Victoria Bell Logo and Brand Identity
+name: Victoria Bell Brand Identity
 name_1: "Victoria Bell Brand Identity • Sketches"
+meta: A logo design, brand identity and book jacket design project for a creative Ottawa-based writer and editor.
 description: |
-  A branding project for a creative Ottawa-based writer and editor.
+  A logo design, brand identity and book jacket design project for a creative Ottawa-based writer and editor.
 description_1: |
   Victoria Bell is a freelance editor, writer, and translator, based in Ottawa, Canada. She writes novels and the occasional short story. Her first novel, “The Weight of Air,” is about a mountain guide trying to figure out his past, his family and himself while leading a group of clients up Mt. Aconcagua in Argentina.
 description_2: |

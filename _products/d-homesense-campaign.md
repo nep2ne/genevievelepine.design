@@ -1,8 +1,10 @@
 ---
-name: "HomeSense Campaign: A Case Study"
+title: HomeSense Campaign Case Study
+name: HomeSense Campaign Case Study
 name_1: "HomeSense Campaign Case Study • Sketches"
+meta: A promotional campaign case study designed to showcase HomeSense as a destination for home redecoration.
 description: |
-  A promotional campaign designed to showcase HomeSense's redecoration potential
+  A promotional campaign case study designed to showcase HomeSense as a destination for home redecoration.
 description_1: |
   HomeSense is a North American retail chain that specializes in home decor.
 description_2: |

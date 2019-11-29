@@ -3,4 +3,6 @@
 Sitemap: http://robotparts.co/sitemap.xml
 
 User-Agent: *
-Disallow:
+Disallow: /img
+Disallow: /fonts
+Disallow: /video

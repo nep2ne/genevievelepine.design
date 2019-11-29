@@ -92,10 +92,6 @@
   transform: rotate(-45deg);
 }
 
-.cart-divider {
-  border-bottom: 3px solid var(--color-accent-light);
-}
-
 .video {
   min-height: 500px;
 }

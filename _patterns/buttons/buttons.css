@@ -29,3 +29,21 @@
   color: var(--color-secondary-opposite);
   border: none;
 }
+
+
+.back-to-top.active {
+    opacity: 1!important;
+}
+.back-to-top {
+    position: fixed;
+    opacity: 0;
+    z-index: 2;
+    bottom: 1em;
+    right: .5em;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--color-secondary);
+    -webkit-transition: opacity .2s ease,box-shadow .1s linear;
+    transition: opacity .2s ease,box-shadow .1s linear;
+}

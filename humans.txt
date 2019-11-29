@@ -16,8 +16,12 @@
 ## Adobe Illustrator
 ## Adobe InDesign
 ## Adobe Photoshop
+## Adobe Acrobat
 ## Atom
 ## Github
+## Spritebot
+## Icon Slate
+## ImageOptim
 
 # HOSTING
 ## Cloudflare

@@ -1,6 +1,8 @@
 ---
-name: "MK Tutoring Services"
+title: Michelle Karow Tutoring Services
+name: MK Tutoring Services
 name_1: "MK Tutoring Services • Sketches"
+meta: A logo and business card design for a small, local tutoring business.
 description: |
   A logo design for a small, local tutoring business.
 description_1: |
