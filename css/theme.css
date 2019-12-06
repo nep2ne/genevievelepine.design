@@ -3,7 +3,7 @@
   --color-primary-light: #8d7689;
   --color-secondary: #f5b65f;
   --color-accent-dark: #696969;
-  --color-accent-light: #8d7689;
+  --color-accent-light: #cec2cd;
   --color-secondary-light: #e8e7e8;
   --color-secondary-opposite: #ffffff;
   --color-warning: #ff1751;
@@ -27,16 +27,35 @@ html {
   background-color: var(--color-accent-dark);
 }
 
-h1, h2 {
+h1 {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: lighter;
+}
+
+h2 {
   font-family: var(--font-secondary);
   color: var(--color-secondary);
 }
 
-h3, h4, h5, h6 {
+h3, h4 {
   font-family: var(--font-secondary);
   color: var(--color-primary);
   text-transform: uppercase;
   font-weight: lighter;
+}
+
+h5 {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: normal;
 }
 
 a {
@@ -47,7 +66,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-accent-light);
+  color: var(--color-primary-light);
 }
 
 dt {

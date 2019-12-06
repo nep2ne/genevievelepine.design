@@ -2,12 +2,28 @@
   <a class="block content-fill unit-content-distribute" href={{include.data.url}} aria-label="clickable card showcasing a piece of branding work">
     <div class="content-fill">
       <div class="grid grid-middle">
-        <div class="unit xs-1 s-1 m-2-3 img-flex">
-          <img src="{{include.data.images[0]}}" aria-label="photo of portfolio piece">
+        <div class="unit xs-1 s-1 m-1 l-2-3 img-flex">
+          <img class="hover-box-image" src="{{include.data.images[0]}}" aria-label="photo of portfolio piece">
         </div>
-        <div class="unit xs-1 s-1 m-1-3 gutter-1-2 ib">
+        <div class="unit xs-1 s-1 m-1 l-1-3 gutter-1-2 ib">
           <h5 class="pad-t-1-2 push-0">{{include.data.name}}</h5>
-          <p class="pad-t-1-8 push-0">{{include.data.description}}</p>
+          <p class="pad-t-1-8 push-1-2">{{include.data.description}}</p>
+          <div class="grid center-content push-1-2">
+            <h5 class="unit xs-1-2 pad-t-1-8 push-0 milli more-detail">View more detail</h5>
+            <div class="unit xs-1-2 pat-t push-0 center-content">
+              <svg class="unit arrow-right" width="16" height="16" transform="rotate(90)" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false">
+                <defs><path id="a-gh3i" d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8z"></path></defs>
+                <g transform="translate(-4 -4)" fill="none" fill-rule="evenodd">
+                  <path d="M0 0h24v24H0z"></path>
+                  <mask id="b-fk43" fill="#f5b65f"><use xlink:href="#a-gh3i"></use></mask>
+                  <use fill="#f5b65f" xlink:href="#a-gh3i"></use>
+                  <g class="arrow-icon" mask="url(#b-fk43)" fill="#f5b65f" fill-rule="nonzero">
+                    <path d="M0 0h24v24H0z"></path>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
         </div>
       </div>
     </div>

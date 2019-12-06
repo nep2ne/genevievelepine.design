@@ -8,13 +8,18 @@ changefreq: monthly
 
 <body>
   <div>
-    {% pattern banners/about-me-banner heading1="You can call me G." text="I'm a graphic designer, abstract visual artist, reformed policy wonk, and part-time quizmaster. <br>I rock at creating brand identities." button_text="Check out my work" button_url="#branding" %}
+    {% pattern banners/about-me-banner heading1="You can call me G." text="I'm a graphic designer who rocks at creating brand identities.<br><br>I'm also an abstract visual artist, a reformed policy wonk, and a part-time trivia quizmaster." button_text="Check out my work" button_url="#branding" %}
   </div>
-  <section class="piece-group island-2 gutter-2" id="branding-portfolio-pieces">
-    <div class="pad-t gutter push-0">
-      <h3 class="push-0">Branding and Packaging</h3>
+  <section id="branding-portfolio-pieces">
+    <div class="island-2 gutter-2 purple-section">
+      <div class="pad-t gutter push-0">
+        <h3 class="purple-section-text push-0">My work</h3>
+        <section>
+          {% pattern sections/introduction-text text="Take a look at some of my favourite projects and case studies below. These include brand identity designs, packaging redesign, and marketing campaigns." %}
+        </section>
+      </div>
     </div>
-    <div class="piece-group grid pad-t gutter">
+    <div class="island-2 gutter-2 grid pad-t">
       {% for product in site.products %}
         <div class="unit [ xs-1 s-1 m-1 ] push unit-content-distribute">
           {% pattern cards/portfolio-piece-card data=product %}
@@ -22,8 +27,15 @@ changefreq: monthly
       {% endfor %}
     </div>
   </section>
+  <section class="island-2 gutter-2 purple-section push">
+    <div class="gutter">
+      <h3 class="push-0 purple-section-text">Hold on...there's more!</h3>
+      {% pattern sections/introduction-text text="I'd also love to show you some of my favourite personal projects.<br>Have a look!" %}
+      {% pattern buttons/basic text="Click me!" url="/other-work" %}
+    </div>
+  </section>
   <section>
-    <div class="piece-group push gutter-2">
+    <div class="push gutter-2">
       {% pattern sections/basic-section %}
     </div>
   </section>

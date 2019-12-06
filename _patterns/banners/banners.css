@@ -4,10 +4,9 @@
 }
 
 .background-image {
-  background-image: url("../images/background.svg");
-  min-height: 30em;
-  max-height: 50em;
-  background-size: cover;
+  background-image: url(../images/background.svg);
+  min-height: 20em;
+  background-size: contain;
   background-repeat: no-repeat;
   overflow: hidden;
   border-color: none;
@@ -31,23 +30,31 @@
   color: var(--color-secondary-opposite);
 }
 
-.avatar {
-  width: 20em;
-  height: 400px;
-}
-
 .avatar-background {
-  height: 415px;
-  margin: 50px;
-  position: relative;
-  width: 400px;
-  background: transparent url("../images/avatar-background.svg") no-repeat center center;
+  height: 22em;
+  max-height: 40em;
+  width: 22em;
+  margin: auto;
+  background-size: contain;
+  background: transparent url("../images/avatar-background.svg") no-repeat center;
 }
 
 .avatar-background:hover {
-  height: 415px;
-  margin: 50px;
-  position: relative;
-  width: 400px;
-  background: transparent url("../images/blinking-avatar-background.svg") no-repeat center center;
+  height: 22em;
+  max-height: 40em;
+  width: 22em;
+  background-size: contain;
+  background: transparent url("../images/blinking-avatar-background.svg") no-repeat center;
+}
+
+.header-banner {
+  height: 28em;
+}
+
+.top-heading {
+  color: var(--color-primary);
+}
+
+.light-purple {
+  background-color: var(--color-accent-light);
 }

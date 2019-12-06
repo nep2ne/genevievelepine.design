@@ -25,3 +25,16 @@ a:focus {
   bottom: -15em;
   width: 300px;
 }
+
+.more-detail {
+  color: var(--color-secondary);
+}
+
+.giant-404 {
+  color: var(--color-secondary-opposite);
+  width: 11em;
+}
+
+.leopard {
+  width: 20em;
+}

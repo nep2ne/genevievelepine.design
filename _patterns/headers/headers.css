@@ -13,8 +13,8 @@
 }
 
 .logo {
-  width: 70%;
-  height: 70%;
+  width: 80%;
+  height: 80%;
   max-width: 10em;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .current {
-  background-color: var(--color-accent-light);
+  background-color: var(--color-primary-light);
   color: var(--color-secondary-opposite);
   border: none;
   border-radius: 3px;

@@ -12,3 +12,13 @@ patterns:
     title: "Introduction text"
     description: |
       This section is used for a block of text that introduces content on a page and serves to separate content.
+    fields:
+      - name: text
+        type: string
+        example: "Take a look at some of my favourite projects and case studies below."
+      - name: text
+        type: string
+        example: "Have a look at some of my favourite personal projects below."
+      - name: text
+        type: string
+        example: "I'd also love to show you some of my favourite personal projects. Have a look!"

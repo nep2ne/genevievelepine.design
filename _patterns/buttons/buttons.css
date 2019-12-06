@@ -1,5 +1,5 @@
 .btn {
-  transition: background-color 400ms ease-out .1s;
+  transition: background-color 300ms ease-out .1s;
   background-color: var(--color-secondary);
   color: var(--color-secondary-opposite);
   border: none;
@@ -33,6 +33,7 @@
 .back-to-top.active {
   opacity: 1!important;
 }
+
 .back-to-top {
   position: fixed;
   opacity: 0;
@@ -43,7 +44,7 @@
   height: 3em;
   border-radius: 50%;
   background-color: var(--color-secondary);
-  -webkit-transition: opacity .2s ease,box-shadow .1s linear;
+  -webkit-transition: opacity .1s ease .1s linear;
   transition: background-color 400ms ease-out .1s;
 }
 
