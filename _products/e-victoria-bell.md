@@ -16,11 +16,11 @@ description_4: |
 non_conflict: false
 images:
   - "/images/products/portfolio-piece-victoria-bell-logo.jpg"
-  - "/images/products/portfolio-piece-victoria-bell-business-card.jpg"
+  - "/images/products/portfolio-piece-victoria-bell-business-cards.jpg"
   - "/images/products/portfolio-piece-victoria-bell-letterhead.jpg"
   - "/images/products/portfolio-piece-victoria-bell-hanging-sign.jpg"
   - "/images/products/portfolio-piece-victoria-bell-bookmark.jpg"
-  - "/images/products/portfolio-piece-victoria-bell-static-book-cover.jpg"
+  - "/images/products/portfolio-piece-victoria-bell-book-jacket.jpg"
 videos:
   - "https://www.youtube.com/embed/QZ5wR-aqKck"
 sketches:
