@@ -19,8 +19,9 @@ images:
   - "/images/products/portfolio-piece-victoria-bell-business-cards.jpg"
   - "/images/products/portfolio-piece-victoria-bell-letterhead.jpg"
   - "/images/products/portfolio-piece-victoria-bell-hanging-sign.jpg"
-  - "/images/products/portfolio-piece-victoria-bell-bookmark.jpg"
   - "/images/products/portfolio-piece-victoria-bell-book-jacket.jpg"
+  - "/images/products/portfolio-piece-victoria-bell-bookmark.jpg"
+
 videos:
   - "https://www.youtube.com/embed/QZ5wR-aqKck"
 sketches:
